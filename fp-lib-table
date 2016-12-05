@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name simple_headers)(type KiCad)(uri "$(KIPRJMOD)/simple_headers.pretty")(options "")(descr ""))
+  (lib (name arduino_pro_micro)(type KiCad)(uri "$(KIPRJMOD)/arduino_pro_micro.pretty")(options "")(descr ""))
+  (lib (name logos)(type KiCad)(uri "$(KIPRJMOD)/logos.pretty")(options "")(descr ""))
+)
