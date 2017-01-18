@@ -1,0 +1,12 @@
+(module wire_solder (layer F.Cu) (tedit 587F4926)
+  (fp_text reference REF** (at 0 5.08) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value wire_solder_4 (at 0 -1.27) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 connect rect (at 0 0) (size 1.5 0.7) (layers F.Cu F.Mask))
+  (pad 2 connect rect (at 0 1.27) (size 1.5 0.7) (layers F.Cu F.Mask))
+  (pad 3 connect rect (at 0 2.54) (size 1.5 0.7) (layers F.Cu F.Mask))
+  (pad 4 connect rect (at 0 3.81) (size 1.5 0.7) (layers F.Cu F.Mask))
+)

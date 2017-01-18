@@ -31,7 +31,7 @@ LIBS:valves
 LIBS:arduino_pro_micro
 LIBS:w_connectors
 LIBS:halakekit_first_break-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -48,834 +48,711 @@ $EndDescr
 $Comp
 L Arduino_Pro_Micro U1
 U 1 1 5830E898
-P 5750 3450
-F 0 "U1" H 5750 2300 60  0000 C CNN
-F 1 "Arduino_Pro_Micro" H 5750 3700 60  0000 C CNN
-F 2 "arduino_pro_micro:Arduino Pro Micro" H 5750 3450 60  0001 C CNN
-F 3 "" H 5750 3450 60  0000 C CNN
-	1    5750 3450
+P 2150 1700
+F 0 "U1" H 2150 550 60  0000 C CNN
+F 1 "Arduino_Pro_Micro" H 2150 1950 60  0000 C CNN
+F 2 "arduino_pro_micro:Arduino Pro Micro" H 2150 1700 60  0001 C CNN
+F 3 "" H 2150 1700 60  0000 C CNN
+	1    2150 1700
 	1    0    0    -1  
 $EndComp
 $Comp
 L HEADER_4 J24
 U 1 1 5830E935
-P 6750 5050
-F 0 "J24" H 6750 5300 60  0000 C CNN
-F 1 "HEADER_4" H 6750 4800 60  0000 C CNN
-F 2 "simple_headers:Pin_Header_Straight_1x04" H 6750 5050 60  0001 C CNN
-F 3 "" H 6750 5050 60  0000 C CNN
-	1    6750 5050
+P 4900 3250
+F 0 "J24" H 4900 3500 60  0000 C CNN
+F 1 "CIRCLES_4" H 4900 3000 60  0000 C CNN
+F 2 "simple_headers:Pin_Header_Circle_1x04" H 4900 3250 60  0001 C CNN
+F 3 "" H 4900 3250 60  0000 C CNN
+	1    4900 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L HEADER_4 J28
 U 1 1 5830E976
-P 8000 5050
-F 0 "J28" H 8000 5300 60  0000 C CNN
-F 1 "HEADER_4" H 8000 4800 60  0000 C CNN
-F 2 "simple_headers:Pin_Header_Straight_1x04" H 8000 5050 60  0001 C CNN
-F 3 "" H 8000 5050 60  0000 C CNN
-	1    8000 5050
+P 3900 3250
+F 0 "J28" H 3900 3500 60  0000 C CNN
+F 1 "CIRCLES_4" H 3900 3000 60  0000 C CNN
+F 2 "simple_headers:Pin_Header_Circle_1x04" H 3900 3250 60  0001 C CNN
+F 3 "" H 3900 3250 60  0000 C CNN
+	1    3900 3250
 	1    0    0    -1  
 $EndComp
-Text GLabel 5300 3350 0    39   Input ~ 0
+Text GLabel 1700 1600 0    39   Input ~ 0
 TXD
-Text GLabel 5300 3450 0    39   Input ~ 0
+Text GLabel 1700 1700 0    39   Input ~ 0
 RXD
-Text GLabel 5300 3750 0    39   Input ~ 0
+Text GLabel 1700 2000 0    39   Input ~ 0
 2
-Text GLabel 5300 3850 0    39   Input ~ 0
+Text GLabel 1700 2100 0    39   Input ~ 0
 3
-Text GLabel 5300 3950 0    39   Input ~ 0
+Text GLabel 1700 2200 0    39   Input ~ 0
 4
-Text GLabel 5300 4050 0    39   Input ~ 0
+Text GLabel 1700 2300 0    39   Input ~ 0
 5
-Text GLabel 5300 4150 0    39   Input ~ 0
+Text GLabel 1700 2400 0    39   Input ~ 0
 6
-Text GLabel 5300 4250 0    39   Input ~ 0
+Text GLabel 1700 2500 0    39   Input ~ 0
 7
-Text GLabel 5300 4350 0    39   Input ~ 0
+Text GLabel 1700 2600 0    39   Input ~ 0
 8
-Text GLabel 5300 4450 0    39   Input ~ 0
+Text GLabel 1700 2700 0    39   Input ~ 0
 9
-Text GLabel 6250 3350 2    39   Input ~ 0
+Text GLabel 2650 1600 2    39   Input ~ 0
 RAW
-Text GLabel 6250 3550 2    39   Input ~ 0
+Text GLabel 2650 1800 2    39   Input ~ 0
 RST
-Text GLabel 6250 3750 2    39   Input ~ 0
+Text GLabel 2650 2000 2    39   Input ~ 0
 A3
-Text GLabel 6250 3850 2    39   Input ~ 0
+Text GLabel 2650 2100 2    39   Input ~ 0
 A2
-Text GLabel 6250 3950 2    39   Input ~ 0
+Text GLabel 2650 2200 2    39   Input ~ 0
 A1
-Text GLabel 6250 4050 2    39   Input ~ 0
+Text GLabel 2650 2300 2    39   Input ~ 0
 A0
-Text GLabel 6250 4150 2    39   Input ~ 0
+Text GLabel 2650 2400 2    39   Input ~ 0
 15
-Text GLabel 6250 4250 2    39   Input ~ 0
+Text GLabel 2650 2500 2    39   Input ~ 0
 14
-Text GLabel 6250 4350 2    39   Input ~ 0
+Text GLabel 2650 2600 2    39   Input ~ 0
 16
-Text GLabel 6250 4450 2    39   Input ~ 0
+Text GLabel 2650 2700 2    39   Input ~ 0
 10
 $Comp
 L GND #PWR01
 U 1 1 5830EDAF
-P 5000 3750
-F 0 "#PWR01" H 5000 3500 50  0001 C CNN
-F 1 "GND" H 5000 3600 50  0000 C CNN
-F 2 "" H 5000 3750 50  0000 C CNN
-F 3 "" H 5000 3750 50  0000 C CNN
-	1    5000 3750
+P 1400 2000
+F 0 "#PWR01" H 1400 1750 50  0001 C CNN
+F 1 "GND" H 1400 1850 50  0000 C CNN
+F 2 "" H 1400 2000 50  0000 C CNN
+F 3 "" H 1400 2000 50  0000 C CNN
+	1    1400 2000
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR02
 U 1 1 5830EDCD
-P 6550 3650
-F 0 "#PWR02" H 6550 3400 50  0001 C CNN
-F 1 "GND" H 6550 3500 50  0000 C CNN
-F 2 "" H 6550 3650 50  0000 C CNN
-F 3 "" H 6550 3650 50  0000 C CNN
-	1    6550 3650
-	1    0    0    -1  
+P 2950 1700
+F 0 "#PWR02" H 2950 1450 50  0001 C CNN
+F 1 "GND" H 2950 1550 50  0000 C CNN
+F 2 "" H 2950 1700 50  0000 C CNN
+F 3 "" H 2950 1700 50  0000 C CNN
+	1    2950 1700
+	0    -1   -1   0   
 $EndComp
 $Comp
 L +5V #PWR03
 U 1 1 5830EDEB
-P 6550 3450
-F 0 "#PWR03" H 6550 3300 50  0001 C CNN
-F 1 "+5V" H 6550 3590 50  0000 C CNN
-F 2 "" H 6550 3450 50  0000 C CNN
-F 3 "" H 6550 3450 50  0000 C CNN
-	1    6550 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L HEADER_2x2 J23
-U 1 1 5830EF1A
-P 5750 5050
-F 0 "J23" H 5750 5200 60  0000 C CNN
-F 1 "HEADER_2x2" H 5750 4900 60  0000 C CNN
-F 2 "simple_headers:Pin_Header_Straight_2x02" H 5750 5050 60  0001 C CNN
-F 3 "" H 5750 5050 60  0000 C CNN
-	1    5750 5050
-	1    0    0    -1  
+P 2950 1900
+F 0 "#PWR03" H 2950 1750 50  0001 C CNN
+F 1 "+5V" H 2950 2040 50  0000 C CNN
+F 2 "" H 2950 1900 50  0000 C CNN
+F 3 "" H 2950 1900 50  0000 C CNN
+	1    2950 1900
+	0    1    1    0   
 $EndComp
 $Comp
 L +5V #PWR04
 U 1 1 5830F198
-P 6450 4900
-F 0 "#PWR04" H 6450 4750 50  0001 C CNN
-F 1 "+5V" H 6450 5040 50  0000 C CNN
-F 2 "" H 6450 4900 50  0000 C CNN
-F 3 "" H 6450 4900 50  0000 C CNN
-	1    6450 4900
+P 4600 3100
+F 0 "#PWR04" H 4600 2950 50  0001 C CNN
+F 1 "+5V" H 4600 3240 50  0000 C CNN
+F 2 "" H 4600 3100 50  0000 C CNN
+F 3 "" H 4600 3100 50  0000 C CNN
+	1    4600 3100
 	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR05
 U 1 1 5830F1B5
-P 7700 4900
-F 0 "#PWR05" H 7700 4750 50  0001 C CNN
-F 1 "+5V" H 7700 5040 50  0000 C CNN
-F 2 "" H 7700 4900 50  0000 C CNN
-F 3 "" H 7700 4900 50  0000 C CNN
-	1    7700 4900
+P 3600 3100
+F 0 "#PWR05" H 3600 2950 50  0001 C CNN
+F 1 "+5V" H 3600 3240 50  0000 C CNN
+F 2 "" H 3600 3100 50  0000 C CNN
+F 3 "" H 3600 3100 50  0000 C CNN
+	1    3600 3100
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR06
 U 1 1 5830F1EE
-P 6450 5200
-F 0 "#PWR06" H 6450 4950 50  0001 C CNN
-F 1 "GND" H 6450 5050 50  0000 C CNN
-F 2 "" H 6450 5200 50  0000 C CNN
-F 3 "" H 6450 5200 50  0000 C CNN
-	1    6450 5200
+P 4600 3400
+F 0 "#PWR06" H 4600 3150 50  0001 C CNN
+F 1 "GND" H 4600 3250 50  0000 C CNN
+F 2 "" H 4600 3400 50  0000 C CNN
+F 3 "" H 4600 3400 50  0000 C CNN
+	1    4600 3400
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR07
 U 1 1 5830F211
-P 7700 5200
-F 0 "#PWR07" H 7700 4950 50  0001 C CNN
-F 1 "GND" H 7700 5050 50  0000 C CNN
-F 2 "" H 7700 5200 50  0000 C CNN
-F 3 "" H 7700 5200 50  0000 C CNN
-	1    7700 5200
+P 3600 3400
+F 0 "#PWR07" H 3600 3150 50  0001 C CNN
+F 1 "GND" H 3600 3250 50  0000 C CNN
+F 2 "" H 3600 3400 50  0000 C CNN
+F 3 "" H 3600 3400 50  0000 C CNN
+	1    3600 3400
 	1    0    0    -1  
 $EndComp
-Text GLabel 5600 5000 0    39   Input ~ 0
-TXD
-Text GLabel 5900 5100 2    39   Input ~ 0
-RXD
-Text GLabel 6650 5000 0    39   Input ~ 0
-RX(TX)
-Text GLabel 6650 5100 0    39   Input ~ 0
-TX(RX)
-Text GLabel 5600 5100 0    39   Input ~ 0
-RX(TX)
-Text GLabel 5900 5000 2    39   Input ~ 0
-TX(RX)
 $Comp
 L HEADER_2 J26
 U 1 1 5830F457
-P 7400 5050
-F 0 "J26" H 7400 5200 60  0000 C CNN
-F 1 "HEADER_2" H 7400 4900 60  0000 C CNN
-F 2 "simple_headers:Pin_Header_Straight_1x02" H 7400 5050 60  0001 C CNN
-F 3 "" H 7400 5050 60  0000 C CNN
-	1    7400 5050
+P 3300 3250
+F 0 "J26" H 3300 3400 60  0000 C CNN
+F 1 "HEADER_2" H 3300 3100 60  0000 C CNN
+F 2 "simple_headers:Pin_Header_Straight_1x02" H 3300 3250 60  0001 C CNN
+F 3 "" H 3300 3250 60  0000 C CNN
+	1    3300 3250
 	-1   0    0    1   
 $EndComp
-Text GLabel 7100 3350 0    39   Input ~ 0
+Text GLabel 3800 1550 0    39   Input ~ 0
 2
-Text GLabel 7100 3450 0    39   Input ~ 0
+Text GLabel 3800 1650 0    39   Input ~ 0
 3
-Text GLabel 7100 3550 0    39   Input ~ 0
+Text GLabel 3800 1750 0    39   Input ~ 0
 4
-Text GLabel 7100 3650 0    39   Input ~ 0
+Text GLabel 3800 1850 0    39   Input ~ 0
 5
-Text GLabel 7100 3750 0    39   Input ~ 0
+Text GLabel 3800 1950 0    39   Input ~ 0
 6
-Text GLabel 7100 3850 0    39   Input ~ 0
+Text GLabel 3800 2050 0    39   Input ~ 0
 7
-Text GLabel 7100 3950 0    39   Input ~ 0
+Text GLabel 3800 2150 0    39   Input ~ 0
 8
-Text GLabel 7100 4050 0    39   Input ~ 0
+Text GLabel 3800 2250 0    39   Input ~ 0
 9
-Text GLabel 7750 4250 0    39   Input ~ 0
+Text GLabel 4800 2550 0    39   Input ~ 0
 10
-Text GLabel 7750 4150 0    39   Input ~ 0
+Text GLabel 4800 2450 0    39   Input ~ 0
 16
-Text GLabel 7750 4050 0    39   Input ~ 0
+Text GLabel 4800 2350 0    39   Input ~ 0
 14
-Text GLabel 7750 3950 0    39   Input ~ 0
+Text GLabel 4800 2250 0    39   Input ~ 0
 15
-Text GLabel 7750 3850 0    39   Input ~ 0
+Text GLabel 4800 2150 0    39   Input ~ 0
 A0
-Text GLabel 7750 3750 0    39   Input ~ 0
+Text GLabel 4800 2050 0    39   Input ~ 0
 A1
-Text GLabel 7750 3650 0    39   Input ~ 0
+Text GLabel 4800 1950 0    39   Input ~ 0
 A2
-Text GLabel 7750 3550 0    39   Input ~ 0
+Text GLabel 4800 1850 0    39   Input ~ 0
 A3
 $Comp
 L +5V #PWR08
 U 1 1 5830FAE1
-P 3850 4000
-F 0 "#PWR08" H 3850 3850 50  0001 C CNN
-F 1 "+5V" H 3850 4140 50  0000 C CNN
-F 2 "" H 3850 4000 50  0000 C CNN
-F 3 "" H 3850 4000 50  0000 C CNN
-	1    3850 4000
+P 6600 1400
+F 0 "#PWR08" H 6600 1250 50  0001 C CNN
+F 1 "+5V" H 6600 1540 50  0000 C CNN
+F 2 "" H 6600 1400 50  0000 C CNN
+F 3 "" H 6600 1400 50  0000 C CNN
+	1    6600 1400
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR09
 U 1 1 5830FB19
-P 3150 5000
-F 0 "#PWR09" H 3150 4750 50  0001 C CNN
-F 1 "GND" H 3150 4850 50  0000 C CNN
-F 2 "" H 3150 5000 50  0000 C CNN
-F 3 "" H 3150 5000 50  0000 C CNN
-	1    3150 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L HEADER_3 J13
-U 1 1 5830FF1D
-P 2400 3000
-F 0 "J13" H 2400 3200 60  0000 C CNN
-F 1 "HEADER_3" H 2400 2800 60  0000 C CNN
-F 2 "simple_headers:Pin_Header_Straight_1x03" H 2400 3000 60  0001 C CNN
-F 3 "" H 2400 3000 60  0000 C CNN
-	1    2400 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L HEADER_3 J3
-U 1 1 58311CCD
-P 1900 3000
-F 0 "J3" H 1900 3200 60  0000 C CNN
-F 1 "HEADER_3" H 1900 2800 60  0000 C CNN
-F 2 "simple_headers:Pin_Header_Straight_1x03" H 1900 3000 60  0001 C CNN
-F 3 "" H 1900 3000 60  0000 C CNN
-	1    1900 3000
+P 5900 2400
+F 0 "#PWR09" H 5900 2150 50  0001 C CNN
+F 1 "GND" H 5900 2250 50  0000 C CNN
+F 2 "" H 5900 2400 50  0000 C CNN
+F 3 "" H 5900 2400 50  0000 C CNN
+	1    5900 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L HEADER_10 J22
 U 1 1 58312344
-P 4250 4500
-F 0 "J22" H 4250 5050 60  0000 C CNN
-F 1 "HEADER_10" H 4250 3950 60  0000 C CNN
-F 2 "simple_headers:Pin_Header_Straight_1x10" H 4250 4500 60  0001 C CNN
-F 3 "" H 4250 4500 60  0000 C CNN
-	1    4250 4500
+P 7000 1900
+F 0 "J22" H 7000 2450 60  0000 C CNN
+F 1 "LINE_10" H 7000 1350 60  0000 C CNN
+F 2 "simple_headers:Pin_Header_Straight_1x10" H 7000 1900 60  0001 C CNN
+F 3 "" H 7000 1900 60  0000 C CNN
+	1    7000 1900
 	1    0    0    -1  
 $EndComp
 $Comp
 L HEADER_10 J21
 U 1 1 58312387
-P 3550 4500
-F 0 "J21" H 3550 5050 60  0000 C CNN
-F 1 "HEADER_10" H 3550 3950 60  0000 C CNN
-F 2 "simple_headers:Pin_Header_Straight_1x10" H 3550 4500 60  0001 C CNN
-F 3 "" H 3550 4500 60  0000 C CNN
-	1    3550 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L HEADER_3 J14
-U 1 1 58312993
-P 2400 3550
-F 0 "J14" H 2400 3750 60  0000 C CNN
-F 1 "HEADER_3" H 2400 3350 60  0000 C CNN
-F 2 "simple_headers:Pin_Header_Straight_1x03" H 2400 3550 60  0001 C CNN
-F 3 "" H 2400 3550 60  0000 C CNN
-	1    2400 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L HEADER_3 J4
-U 1 1 58312999
-P 1900 3550
-F 0 "J4" H 1900 3750 60  0000 C CNN
-F 1 "HEADER_3" H 1900 3350 60  0000 C CNN
-F 2 "simple_headers:Pin_Header_Straight_1x03" H 1900 3550 60  0001 C CNN
-F 3 "" H 1900 3550 60  0000 C CNN
-	1    1900 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L HEADER_3 J15
-U 1 1 58312A99
-P 2400 4100
-F 0 "J15" H 2400 4300 60  0000 C CNN
-F 1 "HEADER_3" H 2400 3900 60  0000 C CNN
-F 2 "simple_headers:Pin_Header_Straight_1x03" H 2400 4100 60  0001 C CNN
-F 3 "" H 2400 4100 60  0000 C CNN
-	1    2400 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L HEADER_3 J5
-U 1 1 58312A9F
-P 1900 4100
-F 0 "J5" H 1900 4300 60  0000 C CNN
-F 1 "HEADER_3" H 1900 3900 60  0000 C CNN
-F 2 "simple_headers:Pin_Header_Straight_1x03" H 1900 4100 60  0001 C CNN
-F 3 "" H 1900 4100 60  0000 C CNN
-	1    1900 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L HEADER_3 J16
-U 1 1 58312AB1
-P 2400 4650
-F 0 "J16" H 2400 4850 60  0000 C CNN
-F 1 "HEADER_3" H 2400 4450 60  0000 C CNN
-F 2 "simple_headers:Pin_Header_Straight_1x03" H 2400 4650 60  0001 C CNN
-F 3 "" H 2400 4650 60  0000 C CNN
-	1    2400 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L HEADER_3 J6
-U 1 1 58312AB7
-P 1900 4650
-F 0 "J6" H 1900 4850 60  0000 C CNN
-F 1 "HEADER_3" H 1900 4450 60  0000 C CNN
-F 2 "simple_headers:Pin_Header_Straight_1x03" H 1900 4650 60  0001 C CNN
-F 3 "" H 1900 4650 60  0000 C CNN
-	1    1900 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L HEADER_3 J17
-U 1 1 58312F6C
-P 2400 5200
-F 0 "J17" H 2400 5400 60  0000 C CNN
-F 1 "HEADER_3" H 2400 5000 60  0000 C CNN
-F 2 "simple_headers:Pin_Header_Straight_1x03" H 2400 5200 60  0001 C CNN
-F 3 "" H 2400 5200 60  0000 C CNN
-	1    2400 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L HEADER_3 J7
-U 1 1 58312F72
-P 1900 5200
-F 0 "J7" H 1900 5400 60  0000 C CNN
-F 1 "HEADER_3" H 1900 5000 60  0000 C CNN
-F 2 "simple_headers:Pin_Header_Straight_1x03" H 1900 5200 60  0001 C CNN
-F 3 "" H 1900 5200 60  0000 C CNN
-	1    1900 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L HEADER_3 J18
-U 1 1 58312F84
-P 2400 5750
-F 0 "J18" H 2400 5950 60  0000 C CNN
-F 1 "HEADER_3" H 2400 5550 60  0000 C CNN
-F 2 "simple_headers:Pin_Header_Straight_1x03" H 2400 5750 60  0001 C CNN
-F 3 "" H 2400 5750 60  0000 C CNN
-	1    2400 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L HEADER_3 J8
-U 1 1 58312F8A
-P 1900 5750
-F 0 "J8" H 1900 5950 60  0000 C CNN
-F 1 "HEADER_3" H 1900 5550 60  0000 C CNN
-F 2 "simple_headers:Pin_Header_Straight_1x03" H 1900 5750 60  0001 C CNN
-F 3 "" H 1900 5750 60  0000 C CNN
-	1    1900 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L HEADER_3 J19
-U 1 1 58312F9C
-P 2400 6300
-F 0 "J19" H 2400 6500 60  0000 C CNN
-F 1 "HEADER_3" H 2400 6100 60  0000 C CNN
-F 2 "simple_headers:Pin_Header_Straight_1x03" H 2400 6300 60  0001 C CNN
-F 3 "" H 2400 6300 60  0000 C CNN
-	1    2400 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L HEADER_3 J9
-U 1 1 58312FA2
-P 1900 6300
-F 0 "J9" H 1900 6500 60  0000 C CNN
-F 1 "HEADER_3" H 1900 6100 60  0000 C CNN
-F 2 "simple_headers:Pin_Header_Straight_1x03" H 1900 6300 60  0001 C CNN
-F 3 "" H 1900 6300 60  0000 C CNN
-	1    1900 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L HEADER_3 J20
-U 1 1 58312FB4
-P 2400 6850
-F 0 "J20" H 2400 7050 60  0000 C CNN
-F 1 "HEADER_3" H 2400 6650 60  0000 C CNN
-F 2 "simple_headers:Pin_Header_Straight_1x03" H 2400 6850 60  0001 C CNN
-F 3 "" H 2400 6850 60  0000 C CNN
-	1    2400 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L HEADER_3 J10
-U 1 1 58312FBA
-P 1900 6850
-F 0 "J10" H 1900 7050 60  0000 C CNN
-F 1 "HEADER_3" H 1900 6650 60  0000 C CNN
-F 2 "simple_headers:Pin_Header_Straight_1x03" H 1900 6850 60  0001 C CNN
-F 3 "" H 1900 6850 60  0000 C CNN
-	1    1900 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L HEADER_3 J11
-U 1 1 5831315F
-P 2400 1950
-F 0 "J11" H 2400 2150 60  0000 C CNN
-F 1 "HEADER_3" H 2400 1750 60  0000 C CNN
-F 2 "simple_headers:Pin_Header_Straight_1x03" H 2400 1950 60  0001 C CNN
-F 3 "" H 2400 1950 60  0000 C CNN
-	1    2400 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L HEADER_3 J1
-U 1 1 58313165
-P 1900 1950
-F 0 "J1" H 1900 2150 60  0000 C CNN
-F 1 "HEADER_3" H 1900 1750 60  0000 C CNN
-F 2 "simple_headers:Pin_Header_Straight_1x03" H 1900 1950 60  0001 C CNN
-F 3 "" H 1900 1950 60  0000 C CNN
-	1    1900 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L HEADER_3 J12
-U 1 1 58313177
-P 2400 2500
-F 0 "J12" H 2400 2700 60  0000 C CNN
-F 1 "HEADER_3" H 2400 2300 60  0000 C CNN
-F 2 "simple_headers:Pin_Header_Straight_1x03" H 2400 2500 60  0001 C CNN
-F 3 "" H 2400 2500 60  0000 C CNN
-	1    2400 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L HEADER_3 J2
-U 1 1 5831317D
-P 1900 2500
-F 0 "J2" H 1900 2700 60  0000 C CNN
-F 1 "HEADER_3" H 1900 2300 60  0000 C CNN
-F 2 "simple_headers:Pin_Header_Straight_1x03" H 1900 2500 60  0001 C CNN
-F 3 "" H 1900 2500 60  0000 C CNN
-	1    1900 2500
+P 6300 1900
+F 0 "J21" H 6300 2450 60  0000 C CNN
+F 1 "LINE_10" H 6300 1350 60  0000 C CNN
+F 2 "simple_headers:Pin_Header_Straight_1x10" H 6300 1900 60  0001 C CNN
+F 3 "" H 6300 1900 60  0000 C CNN
+	1    6300 1900
 	1    0    0    -1  
 $EndComp
 $Comp
 L HEADER_12 J27
 U 1 1 5831ABD5
-P 7850 3700
-F 0 "J27" H 7850 4350 60  0000 C CNN
-F 1 "HEADER_12" H 7850 3050 60  0000 C CNN
-F 2 "simple_headers:Pin_Header_Straight_1x12" H 7850 3700 60  0001 C CNN
-F 3 "" H 7850 3700 60  0000 C CNN
-	1    7850 3700
+P 4900 2000
+F 0 "J27" H 4900 2650 60  0000 C CNN
+F 1 "HEADER_12" H 4900 1350 60  0000 C CNN
+F 2 "simple_headers:Pin_Header_Straight_1x12" H 4900 2000 60  0001 C CNN
+F 3 "" H 4900 2000 60  0000 C CNN
+	1    4900 2000
 	1    0    0    -1  
 $EndComp
-$Comp
-L HEADER_12 J25
-U 1 1 5831AC57
-P 7200 3700
-F 0 "J25" H 7200 4350 60  0000 C CNN
-F 1 "HEADER_12" H 7200 3050 60  0000 C CNN
-F 2 "simple_headers:Pin_Header_Straight_1x12" H 7200 3700 60  0001 C CNN
-F 3 "" H 7200 3700 60  0000 C CNN
-	1    7200 3700
-	1    0    0    -1  
-$EndComp
-Text GLabel 7750 3350 0    39   Input ~ 0
+Text GLabel 4800 1650 0    39   Input ~ 0
 RST
-Text GLabel 7750 3150 0    39   Input ~ 0
+Text GLabel 4800 1450 0    39   Input ~ 0
 RAW
 $Comp
 L +5V #PWR010
 U 1 1 5831ADD9
-P 7450 3250
-F 0 "#PWR010" H 7450 3100 50  0001 C CNN
-F 1 "+5V" H 7450 3390 50  0000 C CNN
-F 2 "" H 7450 3250 50  0000 C CNN
-F 3 "" H 7450 3250 50  0000 C CNN
-	1    7450 3250
-	1    0    0    -1  
+P 4500 1750
+F 0 "#PWR010" H 4500 1600 50  0001 C CNN
+F 1 "+5V" H 4500 1890 50  0000 C CNN
+F 2 "" H 4500 1750 50  0000 C CNN
+F 3 "" H 4500 1750 50  0000 C CNN
+	1    4500 1750
+	0    -1   -1   0   
 $EndComp
 $Comp
 L GND #PWR011
 U 1 1 5831AE3B
-P 7450 3450
-F 0 "#PWR011" H 7450 3200 50  0001 C CNN
-F 1 "GND" H 7450 3300 50  0000 C CNN
-F 2 "" H 7450 3450 50  0000 C CNN
-F 3 "" H 7450 3450 50  0000 C CNN
-	1    7450 3450
-	1    0    0    -1  
+P 4500 1550
+F 0 "#PWR011" H 4500 1300 50  0001 C CNN
+F 1 "GND" H 4500 1400 50  0000 C CNN
+F 2 "" H 4500 1550 50  0000 C CNN
+F 3 "" H 4500 1550 50  0000 C CNN
+	1    4500 1550
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6250 3450 6550 3450
+	2650 1700 2950 1700
 Wire Wire Line
-	6250 3650 6550 3650
+	2650 1900 2950 1900
 Wire Wire Line
-	5000 3550 5000 3750
+	1400 1800 1400 2000
 Wire Wire Line
-	5000 3550 5300 3550
+	1400 1800 1700 1800
 Wire Wire Line
-	5300 3650 5000 3650
-Connection ~ 5000 3650
+	1700 1900 1400 1900
+Connection ~ 1400 1900
 Wire Wire Line
-	6450 4900 6650 4900
+	4600 3100 4800 3100
 Wire Wire Line
-	6450 5200 6650 5200
+	4600 3400 4800 3400
 Wire Wire Line
-	7700 4900 7900 4900
+	3600 3100 3800 3100
 Wire Wire Line
-	7700 5200 7900 5200
+	3600 3400 3800 3400
 Wire Wire Line
-	7500 5000 7900 5000
+	3400 3200 3800 3200
 Wire Wire Line
-	7500 5100 7900 5100
+	3400 3300 3800 3300
 Wire Wire Line
-	3850 4000 3850 4950
+	6600 1400 6600 2350
 Wire Wire Line
-	3850 4950 4150 4950
+	6600 2350 6900 2350
 Wire Wire Line
-	3150 4050 3150 5000
+	5900 1450 5900 2400
 Wire Wire Line
-	3150 4050 3450 4050
+	5900 1450 6200 1450
 Wire Wire Line
-	3450 4350 3150 4350
-Connection ~ 3150 4350
+	6200 1750 5900 1750
+Connection ~ 5900 1750
 Wire Wire Line
-	3450 4450 3150 4450
-Connection ~ 3150 4450
+	6200 1850 5900 1850
+Connection ~ 5900 1850
 Wire Wire Line
-	3450 4550 3150 4550
-Connection ~ 3150 4550
+	6200 1950 5900 1950
+Connection ~ 5900 1950
 Wire Wire Line
-	3450 4650 3150 4650
-Connection ~ 3150 4650
+	6200 2050 5900 2050
+Connection ~ 5900 2050
 Wire Wire Line
-	3450 4750 3150 4750
-Connection ~ 3150 4750
+	6200 2150 5900 2150
+Connection ~ 5900 2150
 Wire Wire Line
-	3450 4850 3150 4850
-Connection ~ 3150 4850
+	6200 2250 5900 2250
+Connection ~ 5900 2250
 Wire Wire Line
-	3450 4950 3150 4950
-Connection ~ 3150 4950
+	6200 2350 5900 2350
+Connection ~ 5900 2350
 Wire Wire Line
-	4150 4050 3850 4050
-Connection ~ 3850 4050
+	6900 1450 6600 1450
+Connection ~ 6600 1450
 Wire Wire Line
-	4150 4150 3850 4150
-Connection ~ 3850 4150
+	6900 1550 6600 1550
+Connection ~ 6600 1550
 Wire Wire Line
-	4150 4250 3850 4250
-Connection ~ 3850 4250
+	6900 1650 6600 1650
+Connection ~ 6600 1650
 Wire Wire Line
-	4150 4350 3850 4350
-Connection ~ 3850 4350
+	6900 1750 6600 1750
+Connection ~ 6600 1750
 Wire Wire Line
-	4150 4450 3850 4450
-Connection ~ 3850 4450
+	6900 1850 6600 1850
+Connection ~ 6600 1850
 Wire Wire Line
-	4150 4550 3850 4550
-Connection ~ 3850 4550
+	6900 1950 6600 1950
+Connection ~ 6600 1950
 Wire Wire Line
-	4150 4650 3850 4650
-Connection ~ 3850 4650
+	6900 2050 6600 2050
+Connection ~ 6600 2050
 Wire Wire Line
-	2300 2900 2200 2900
+	6900 2150 6600 2150
+Connection ~ 6600 2150
 Wire Wire Line
-	2200 2900 2200 3100
+	6600 2250 6900 2250
+Connection ~ 6600 2250
 Wire Wire Line
-	2200 3100 2300 3100
+	5900 1550 6200 1550
+Connection ~ 5900 1550
 Wire Wire Line
-	2300 3000 2200 3000
-Connection ~ 2200 3000
+	5900 1650 6200 1650
+Connection ~ 5900 1650
 Wire Wire Line
-	4150 4750 3850 4750
-Connection ~ 3850 4750
+	4500 1550 4800 1550
 Wire Wire Line
-	3850 4850 4150 4850
-Connection ~ 3850 4850
-Wire Wire Line
-	3150 4150 3450 4150
-Connection ~ 3150 4150
-Wire Wire Line
-	3150 4250 3450 4250
-Connection ~ 3150 4250
-Wire Wire Line
-	1800 2900 1700 2900
-Wire Wire Line
-	1700 2900 1700 3100
-Wire Wire Line
-	1700 3100 1800 3100
-Wire Wire Line
-	1800 3000 1700 3000
-Connection ~ 1700 3000
-Wire Wire Line
-	2300 3450 2200 3450
-Wire Wire Line
-	2200 3450 2200 3650
-Wire Wire Line
-	2200 3650 2300 3650
-Wire Wire Line
-	2300 3550 2200 3550
-Connection ~ 2200 3550
-Wire Wire Line
-	1800 3450 1700 3450
-Wire Wire Line
-	1700 3450 1700 3650
-Wire Wire Line
-	1700 3650 1800 3650
-Wire Wire Line
-	1800 3550 1700 3550
-Connection ~ 1700 3550
-Wire Wire Line
-	2300 4000 2200 4000
-Wire Wire Line
-	2200 4000 2200 4200
-Wire Wire Line
-	2200 4200 2300 4200
-Wire Wire Line
-	2300 4100 2200 4100
-Connection ~ 2200 4100
-Wire Wire Line
-	1800 4000 1700 4000
-Wire Wire Line
-	1700 4000 1700 4200
-Wire Wire Line
-	1700 4200 1800 4200
-Wire Wire Line
-	1800 4100 1700 4100
-Connection ~ 1700 4100
-Wire Wire Line
-	2300 4550 2200 4550
-Wire Wire Line
-	2200 4550 2200 4750
-Wire Wire Line
-	2200 4750 2300 4750
-Wire Wire Line
-	2300 4650 2200 4650
-Connection ~ 2200 4650
-Wire Wire Line
-	1800 4550 1700 4550
-Wire Wire Line
-	1700 4550 1700 4750
-Wire Wire Line
-	1700 4750 1800 4750
-Wire Wire Line
-	1800 4650 1700 4650
-Connection ~ 1700 4650
-Wire Wire Line
-	2300 5100 2200 5100
-Wire Wire Line
-	2200 5100 2200 5300
-Wire Wire Line
-	2200 5300 2300 5300
-Wire Wire Line
-	2300 5200 2200 5200
-Connection ~ 2200 5200
-Wire Wire Line
-	1800 5100 1700 5100
-Wire Wire Line
-	1700 5100 1700 5300
-Wire Wire Line
-	1700 5300 1800 5300
-Wire Wire Line
-	1800 5200 1700 5200
-Connection ~ 1700 5200
-Wire Wire Line
-	2300 5650 2200 5650
-Wire Wire Line
-	2200 5650 2200 5850
-Wire Wire Line
-	2200 5850 2300 5850
-Wire Wire Line
-	2300 5750 2200 5750
-Connection ~ 2200 5750
-Wire Wire Line
-	1800 5650 1700 5650
-Wire Wire Line
-	1700 5650 1700 5850
-Wire Wire Line
-	1700 5850 1800 5850
-Wire Wire Line
-	1800 5750 1700 5750
-Connection ~ 1700 5750
-Wire Wire Line
-	2300 6200 2200 6200
-Wire Wire Line
-	2200 6200 2200 6400
-Wire Wire Line
-	2200 6400 2300 6400
-Wire Wire Line
-	2300 6300 2200 6300
-Connection ~ 2200 6300
-Wire Wire Line
-	1800 6200 1700 6200
-Wire Wire Line
-	1700 6200 1700 6400
-Wire Wire Line
-	1700 6400 1800 6400
-Wire Wire Line
-	1800 6300 1700 6300
-Connection ~ 1700 6300
-Wire Wire Line
-	2300 6750 2200 6750
-Wire Wire Line
-	2200 6750 2200 6950
-Wire Wire Line
-	2200 6950 2300 6950
-Wire Wire Line
-	2300 6850 2200 6850
-Connection ~ 2200 6850
-Wire Wire Line
-	1800 6750 1700 6750
-Wire Wire Line
-	1700 6750 1700 6950
-Wire Wire Line
-	1700 6950 1800 6950
-Wire Wire Line
-	1800 6850 1700 6850
-Connection ~ 1700 6850
-Wire Wire Line
-	2300 1850 2200 1850
-Wire Wire Line
-	2200 1850 2200 2050
-Wire Wire Line
-	2200 2050 2300 2050
-Wire Wire Line
-	2300 1950 2200 1950
-Connection ~ 2200 1950
-Wire Wire Line
-	1800 1850 1700 1850
-Wire Wire Line
-	1700 1850 1700 2050
-Wire Wire Line
-	1700 2050 1800 2050
-Wire Wire Line
-	1800 1950 1700 1950
-Connection ~ 1700 1950
-Wire Wire Line
-	2300 2400 2200 2400
-Wire Wire Line
-	2200 2400 2200 2600
-Wire Wire Line
-	2200 2600 2300 2600
-Wire Wire Line
-	2300 2500 2200 2500
-Connection ~ 2200 2500
-Wire Wire Line
-	1800 2400 1700 2400
-Wire Wire Line
-	1700 2400 1700 2600
-Wire Wire Line
-	1700 2600 1800 2600
-Wire Wire Line
-	1800 2500 1700 2500
-Connection ~ 1700 2500
-Wire Wire Line
-	7450 3250 7750 3250
-Wire Wire Line
-	7450 3450 7750 3450
+	4500 1750 4800 1750
 $Comp
 L GND #PWR012
 U 1 1 5831B1A3
-P 6850 3250
-F 0 "#PWR012" H 6850 3000 50  0001 C CNN
-F 1 "GND" H 6850 3100 50  0000 C CNN
-F 2 "" H 6850 3250 50  0000 C CNN
-F 3 "" H 6850 3250 50  0000 C CNN
-	1    6850 3250
+P 3550 1450
+F 0 "#PWR012" H 3550 1200 50  0001 C CNN
+F 1 "GND" H 3550 1300 50  0000 C CNN
+F 2 "" H 3550 1450 50  0000 C CNN
+F 3 "" H 3550 1450 50  0000 C CNN
+	1    3550 1450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6850 3250 7100 3250
-Wire Wire Line
-	7100 3150 7000 3150
-Wire Wire Line
-	7000 3150 7000 3250
-Connection ~ 7000 3250
+	3550 1450 3800 1450
 $Comp
 L +5V #PWR013
 U 1 1 5831B37A
-P 6850 4150
-F 0 "#PWR013" H 6850 4000 50  0001 C CNN
-F 1 "+5V" H 6850 4290 50  0000 C CNN
-F 2 "" H 6850 4150 50  0000 C CNN
-F 3 "" H 6850 4150 50  0000 C CNN
-	1    6850 4150
+P 3550 2350
+F 0 "#PWR013" H 3550 2200 50  0001 C CNN
+F 1 "+5V" H 3550 2490 50  0000 C CNN
+F 2 "" H 3550 2350 50  0000 C CNN
+F 3 "" H 3550 2350 50  0000 C CNN
+	1    3550 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 4800 3200 0    39   Input ~ 0
+RXD
+Text GLabel 4800 3300 0    39   Input ~ 0
+TXD
+Wire Wire Line
+	3550 2350 3800 2350
+$Comp
+L HEADER_10 J6
+U 1 1 587F3C03
+P 3900 1900
+F 0 "J6" H 3900 2450 60  0000 L CNN
+F 1 "HEADER_10" H 3700 1350 60  0000 L CNN
+F 2 "simple_headers:Pin_Header_Straight_1x10" H 3900 1900 60  0001 C CNN
+F 3 "" H 3900 1900 60  0000 C CNN
+	1    3900 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L HEADER_4 J9
+U 1 1 587F56C9
+P 4900 5250
+F 0 "J9" H 4900 5500 60  0000 C CNN
+F 1 "Connector_4" H 4900 5000 60  0000 C CNN
+F 2 "simple_headers:Pin_Header_Straight_1x04" H 4900 5250 60  0001 C CNN
+F 3 "" H 4900 5250 60  0000 C CNN
+	1    4900 5250
+	1    0    0    -1  
+$EndComp
+Text GLabel 4800 5200 0    39   Input ~ 0
+Connector1_RX
+Text GLabel 4800 5300 0    39   Input ~ 0
+Connector1_TX
+Text GLabel 4800 5100 0    39   Input ~ 0
+Connector1_5V
+Text GLabel 4800 5400 0    39   Input ~ 0
+Connector1_GND
+$Comp
+L HEADER_4 J7
+U 1 1 587F5E11
+P 3900 5250
+F 0 "J7" H 3900 5500 60  0000 C CNN
+F 1 "Connector_s_4" H 3900 5000 60  0000 C CNN
+F 2 "simple_headers:headers_s_4" H 3900 5250 60  0001 C CNN
+F 3 "" H 3900 5250 60  0000 C CNN
+	1    3900 5250
+	1    0    0    -1  
+$EndComp
+Text GLabel 3800 5200 0    39   Input ~ 0
+Connector1_RX
+Text GLabel 3800 5300 0    39   Input ~ 0
+Connector1_TX
+Text GLabel 3800 5100 0    39   Input ~ 0
+Connector1_5V
+Text GLabel 3800 5400 0    39   Input ~ 0
+Connector1_GND
+$Comp
+L HEADER_4 J8
+U 1 1 587F5ED9
+P 3900 6200
+F 0 "J8" H 3900 6450 60  0000 C CNN
+F 1 "Connector_s_4" H 3900 5950 60  0000 C CNN
+F 2 "simple_headers:headers_s_4" H 3900 6200 60  0001 C CNN
+F 3 "" H 3900 6200 60  0000 C CNN
+	1    3900 6200
+	1    0    0    -1  
+$EndComp
+Text GLabel 3800 6150 0    39   Input ~ 0
+Connector2_RX
+Text GLabel 3800 6250 0    39   Input ~ 0
+Connector2_TX
+Text GLabel 3800 6050 0    39   Input ~ 0
+Connector2_5V
+Text GLabel 3800 6350 0    39   Input ~ 0
+Connector2_GND
+$Comp
+L HEADER_4 J10
+U 1 1 587F606A
+P 4900 6200
+F 0 "J10" H 4900 6450 60  0000 C CNN
+F 1 "Connector_4" H 4900 5950 60  0000 C CNN
+F 2 "simple_headers:Pin_Header_Straight_1x04" H 4900 6200 60  0001 C CNN
+F 3 "" H 4900 6200 60  0000 C CNN
+	1    4900 6200
+	1    0    0    -1  
+$EndComp
+Text GLabel 4800 6150 0    39   Input ~ 0
+Connector2_RX
+Text GLabel 4800 6250 0    39   Input ~ 0
+Connector2_TX
+Text GLabel 4800 6050 0    39   Input ~ 0
+Connector2_5V
+Text GLabel 4800 6350 0    39   Input ~ 0
+Connector2_GND
+$Comp
+L HEADER_4 J1
+U 1 1 587F66BB
+P 8000 1600
+F 0 "J1" H 8000 1850 60  0000 L CNN
+F 1 "LINE_4" H 7750 1350 60  0000 L CNN
+F 2 "simple_headers:Pin_Header_Connect_1x04" H 8000 1600 60  0001 C CNN
+F 3 "" H 8000 1600 60  0000 C CNN
+	1    8000 1600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6850 4150 7100 4150
+	7900 1450 7750 1450
 Wire Wire Line
-	7000 4150 7000 4250
+	7750 1450 7750 1750
 Wire Wire Line
-	7000 4250 7100 4250
-Connection ~ 7000 4150
+	7750 1750 7900 1750
+Wire Wire Line
+	7900 1650 7750 1650
+Connection ~ 7750 1650
+Wire Wire Line
+	7900 1550 7750 1550
+Connection ~ 7750 1550
+$Comp
+L HEADER_4 J2
+U 1 1 587F6A70
+P 8000 2250
+F 0 "J2" H 8000 2500 60  0000 L CNN
+F 1 "LINE_4" H 7750 2000 60  0000 L CNN
+F 2 "simple_headers:Pin_Header_Connect_1x04" H 8000 2250 60  0001 C CNN
+F 3 "" H 8000 2250 60  0000 C CNN
+	1    8000 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 2100 7750 2100
+Wire Wire Line
+	7750 2100 7750 2400
+Wire Wire Line
+	7750 2400 7900 2400
+Wire Wire Line
+	7900 2300 7750 2300
+Connection ~ 7750 2300
+Wire Wire Line
+	7900 2200 7750 2200
+Connection ~ 7750 2200
+$Comp
+L HEADER_4 J3
+U 1 1 587F6C29
+P 8600 1600
+F 0 "J3" H 8600 1850 60  0000 L CNN
+F 1 "LINE_4" H 8350 1350 60  0000 L CNN
+F 2 "simple_headers:Pin_Header_Connect_1x04" H 8600 1600 60  0001 C CNN
+F 3 "" H 8600 1600 60  0000 C CNN
+	1    8600 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 1450 8350 1450
+Wire Wire Line
+	8350 1450 8350 1750
+Wire Wire Line
+	8350 1750 8500 1750
+Wire Wire Line
+	8500 1650 8350 1650
+Connection ~ 8350 1650
+Wire Wire Line
+	8500 1550 8350 1550
+Connection ~ 8350 1550
+$Comp
+L HEADER_4 J4
+U 1 1 587F6C36
+P 8600 2250
+F 0 "J4" H 8600 2500 60  0000 L CNN
+F 1 "LINE_4" H 8350 2000 60  0000 L CNN
+F 2 "simple_headers:Pin_Header_Connect_1x04" H 8600 2250 60  0001 C CNN
+F 3 "" H 8600 2250 60  0000 C CNN
+	1    8600 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 2100 8350 2100
+Wire Wire Line
+	8350 2100 8350 2400
+Wire Wire Line
+	8350 2400 8500 2400
+Wire Wire Line
+	8500 2300 8350 2300
+Connection ~ 8350 2300
+Wire Wire Line
+	8500 2200 8350 2200
+Connection ~ 8350 2200
+$Comp
+L HEADER_4 J5
+U 1 1 587F6CF3
+P 9200 1600
+F 0 "J5" H 9200 1850 60  0000 L CNN
+F 1 "LINE_4" H 8950 1350 60  0000 L CNN
+F 2 "simple_headers:Pin_Header_Connect_1x04" H 9200 1600 60  0001 C CNN
+F 3 "" H 9200 1600 60  0000 C CNN
+	1    9200 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 1450 8950 1450
+Wire Wire Line
+	8950 1450 8950 1750
+Wire Wire Line
+	8950 1750 9100 1750
+Wire Wire Line
+	9100 1650 8950 1650
+Connection ~ 8950 1650
+Wire Wire Line
+	9100 1550 8950 1550
+Connection ~ 8950 1550
+$Comp
+L HEADER_4 J11
+U 1 1 587F6D00
+P 9200 2250
+F 0 "J11" H 9200 2500 60  0000 L CNN
+F 1 "LINE_4" H 8950 2000 60  0000 L CNN
+F 2 "simple_headers:Pin_Header_Connect_1x04" H 9200 2250 60  0001 C CNN
+F 3 "" H 9200 2250 60  0000 C CNN
+	1    9200 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 2100 8950 2100
+Wire Wire Line
+	8950 2100 8950 2400
+Wire Wire Line
+	8950 2400 9100 2400
+Wire Wire Line
+	9100 2300 8950 2300
+Connection ~ 8950 2300
+Wire Wire Line
+	9100 2200 8950 2200
+Connection ~ 8950 2200
+$Comp
+L HEADER_4 J12
+U 1 1 587F6D0D
+P 9800 1600
+F 0 "J12" H 9800 1850 60  0000 L CNN
+F 1 "LINE_4" H 9550 1350 60  0000 L CNN
+F 2 "simple_headers:Pin_Header_Connect_1x04" H 9800 1600 60  0001 C CNN
+F 3 "" H 9800 1600 60  0000 C CNN
+	1    9800 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 1450 9550 1450
+Wire Wire Line
+	9550 1450 9550 1750
+Wire Wire Line
+	9550 1750 9700 1750
+Wire Wire Line
+	9700 1650 9550 1650
+Connection ~ 9550 1650
+Wire Wire Line
+	9700 1550 9550 1550
+Connection ~ 9550 1550
+$Comp
+L HEADER_4 J13
+U 1 1 587F6D1A
+P 9800 2250
+F 0 "J13" H 9800 2500 60  0000 L CNN
+F 1 "LINE_4" H 9550 2000 60  0000 L CNN
+F 2 "simple_headers:Pin_Header_Connect_1x04" H 9800 2250 60  0001 C CNN
+F 3 "" H 9800 2250 60  0000 C CNN
+	1    9800 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 2100 9550 2100
+Wire Wire Line
+	9550 2100 9550 2400
+Wire Wire Line
+	9550 2400 9700 2400
+Wire Wire Line
+	9700 2300 9550 2300
+Connection ~ 9550 2300
+Wire Wire Line
+	9700 2200 9550 2200
+Connection ~ 9550 2200
+$Comp
+L HEADER_4 J14
+U 1 1 587F6E8F
+P 10400 1600
+F 0 "J14" H 10400 1850 60  0000 L CNN
+F 1 "LINE_4" H 10150 1350 60  0000 L CNN
+F 2 "simple_headers:Pin_Header_Connect_1x04" H 10400 1600 60  0001 C CNN
+F 3 "" H 10400 1600 60  0000 C CNN
+	1    10400 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 1450 10150 1450
+Wire Wire Line
+	10150 1450 10150 1750
+Wire Wire Line
+	10150 1750 10300 1750
+Wire Wire Line
+	10300 1650 10150 1650
+Connection ~ 10150 1650
+Wire Wire Line
+	10300 1550 10150 1550
+Connection ~ 10150 1550
+$Comp
+L HEADER_4 J15
+U 1 1 587F6E9C
+P 10400 2250
+F 0 "J15" H 10400 2500 60  0000 L CNN
+F 1 "LINE_4" H 10150 2000 60  0000 L CNN
+F 2 "simple_headers:Pin_Header_Connect_1x04" H 10400 2250 60  0001 C CNN
+F 3 "" H 10400 2250 60  0000 C CNN
+	1    10400 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 2100 10150 2100
+Wire Wire Line
+	10150 2100 10150 2400
+Wire Wire Line
+	10150 2400 10300 2400
+Wire Wire Line
+	10300 2300 10150 2300
+Connection ~ 10150 2300
+Wire Wire Line
+	10300 2200 10150 2200
+Connection ~ 10150 2200
 $EndSCHEMATC
