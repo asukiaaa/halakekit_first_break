@@ -36,10 +36,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "HaLakeKitFirst"
+Date "2017-01-19"
+Rev "1.1"
+Comp "Nyampass.co.ltd."
 Comment1 ""
 Comment2 ""
 Comment3 ""
