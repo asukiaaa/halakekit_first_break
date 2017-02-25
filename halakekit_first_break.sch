@@ -31,7 +31,7 @@ LIBS:valves
 LIBS:arduino_pro_micro
 LIBS:w_connectors
 LIBS:halakekit_first_break-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -473,8 +473,8 @@ L HEADER_4 J7
 U 1 1 587F5E11
 P 3900 5250
 F 0 "J7" H 3900 5500 60  0000 C CNN
-F 1 "Connector_s_4" H 3900 5000 60  0000 C CNN
-F 2 "simple_headers:headers_s_4" H 3900 5250 60  0001 C CNN
+F 1 "Connector_4" H 3900 5000 60  0000 C CNN
+F 2 "simple_headers:Pin_Header_Straight_1x04" H 3900 5250 60  0001 C CNN
 F 3 "" H 3900 5250 60  0000 C CNN
 	1    3900 5250
 	1    0    0    -1  
@@ -492,8 +492,8 @@ L HEADER_4 J8
 U 1 1 587F5ED9
 P 3900 6200
 F 0 "J8" H 3900 6450 60  0000 C CNN
-F 1 "Connector_s_4" H 3900 5950 60  0000 C CNN
-F 2 "simple_headers:headers_s_4" H 3900 6200 60  0001 C CNN
+F 1 "Connector_4" H 3900 5950 60  0000 C CNN
+F 2 "simple_headers:Pin_Header_Straight_1x04" H 3900 6200 60  0001 C CNN
 F 3 "" H 3900 6200 60  0000 C CNN
 	1    3900 6200
 	1    0    0    -1  
